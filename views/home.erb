@@ -2,5 +2,5 @@
 <p><strong>The results are:</strong></p>
 
 <% @results.each do |item| %>
-	<p><%= item.fetch("name") %></p>
+	<p><img height="20" width="20" src="<%= item.fetch("icon") %>">&nbsp;<%= item.fetch("name") %>&nbsp;(<%= item.fetch("rating") %>)</p>
 <% end %>
