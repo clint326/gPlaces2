@@ -1,6 +1,4 @@
-require 'open-uri'
 require 'json'
-require 'pp'
 require 'sinatra'
 
 # latitude =  43.0389
